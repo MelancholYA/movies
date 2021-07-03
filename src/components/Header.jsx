@@ -31,6 +31,7 @@ const Header = ({ setMovies, actualize, setAcatualize }) => {
         onClick={() => {
           setSearchWord("");
           setAcatualize(actualize + 1);
+          console.log(actualize);
         }}
         className='header__image'
         src={logo}

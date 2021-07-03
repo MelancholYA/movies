@@ -6,7 +6,7 @@ const App = () => {
     title: "Most Recent Movies",
     data: null,
   });
-  const [actualize, setAcatualize] = useState();
+  const [actualize, setAcatualize] = useState(0);
   return (
     <div>
       <Header
