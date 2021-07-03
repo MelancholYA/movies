@@ -43,7 +43,7 @@ const Body = ({ movies, setMovies, actualize }) => {
         ) : error ? (
           <div className='non'>No Data</div>
         ) : movies.data ? (
-          movies.data.results.length > 0 ? (
+          movies.data.results && movies.data.results.length > 0 ? (
             movies.data.results.map((movie, i) => (
               <div
                 key={i}
